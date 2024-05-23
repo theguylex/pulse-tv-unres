@@ -1,0 +1,1226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 0.125rem solid black; */
+}
+
+.top {
+    background: url("/images/Pulse-central-_artwork.png")no-repeat center center/cover;
+    width: 100%;
+    height: 31.25rem;
+}
+
+.overlay {
+    position: absolute;
+    /* border: 0.188rem solid white; */
+    width: 100%;
+    height: 31.25rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+    z-index: 2;
+}
+
+.navbar img {
+    position: fixed;
+    left: 2rem;
+    top: 1.25rem;
+    height: 2.688rem;
+    width: 6.375rem;
+    z-index: 1;
+}
+
+.navbar ul {
+    position: fixed;
+    left: 20.625rem;
+    top: 1.813rem;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.navbar li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    /* z-index: 1; */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.938rem 1.956rem;
+    /* z-index: 1; */
+}
+
+.navbar li a:hover {
+    border-bottom: 0.063rem solid white;
+}
+
+.top h1 {
+    position: absolute;
+    top: 13.75rem;
+    left: 15.313rem;
+    color: white;
+    font-family: arial;
+    font-size: 2.5rem;
+    letter-spacing: 0.063rem;
+}
+
+.intro {
+    /* background-color: orange; */
+    position: relative;
+    top: 31.25rem;
+    height: 17.375rem;
+}
+
+.intro p {
+    font-family: 'Segoe UI';
+    font-size: 1.563rem;
+    word-spacing: 0.063rem;
+    font-weight: 350;
+    line-height: 2.813rem;
+    text-align: center;
+    position: relative;
+    top: 5.625rem;
+}
+
+.intro blockquote {
+    font-family: 'Segoe UI';
+    font-size: 1.563rem;
+    word-spacing: 0.063rem;
+    font-weight: 350;
+    line-height: 2.813rem;
+    text-align: center;
+    position: relative;
+    top: 4.938rem;
+    left: 7.375rem;
+    width: 82%;
+    padding: 0.938rem 1.313rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.countries {
+    background-color: rgba(0, 0, 0, 0.04);
+    position: relative;
+    top: 31.25rem;
+    height: 37.5rem;
+    /* border: 0.063rem solid green; */
+}
+
+.countries h1 {
+    color: black;
+    font-family: arial;
+    font-size: 1.5rem;
+    font-weight: 1;
+    position: absolute;
+    top: 4.625rem;
+    left: 28.625rem;
+}
+
+.country1, .country2, .country3, .country4, .country5, .country6{
+    height: 11.375rem;
+    width: 16.688rem;
+    background-color: white;
+}
+
+.ngShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 9.5rem;
+    left: 10.125rem;
+    opacity: 0;
+}
+
+.ngShadow:hover, .ghShadow:hover, .keShadow:hover, .ugShadow:hover, .snShadow:hover, .ciShadow:hover {
+    opacity: 1;
+}
+
+.ngShadow img, .ghShadow img, .keShadow img, .ugShadow img, .snShadow img, .ciShadow img {
+    height: 2.688rem;
+    width: 6.375rem;
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.ngShadow p, .ghShadow p, .keShadow p, .ugShadow p, .snShadow p, .ciShadow p {
+    margin-bottom: 1.25rem;
+    line-height: 1.375rem;
+}
+
+.ngShadow a, .ghShadow a, .keShadow a, .ugShadow a, .snShadow a, .ciShadow a {
+    color: white;
+    text-decoration: none;
+}
+
+.ngShadow a:hover, .ghShadow a:hover, .keShadow a:hover, .ugShadow a:hover, .snShadow a:hover, .ciShadow a:hover {
+    text-decoration: underline;
+}
+
+.ghShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 9.5rem;
+    left: 33.938rem;
+    opacity: 0;
+}
+
+.keShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 9.5rem;
+    left: 57.438rem;
+    opacity: 0;
+}
+
+.ugShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 21.875rem;
+    left: 10.125rem;
+    opacity: 0;
+}
+
+.snShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 21.875rem;
+    left: 33.938rem;
+    opacity: 0;
+}
+
+.ciShadow {
+    height: 11.375rem;
+    width: 16.688rem;
+    color: white;
+    background-color: rgb(175, 57, 54);
+    text-align: center;
+    position: absolute;
+    top: 21.875rem;
+    left: 57.438rem;
+    opacity: 0;
+}
+
+.country1 img, .country2 img, .country3 img, .country4 img, .country5 img, .country6 img {
+    height: 4.375rem;
+    width: 6.563rem;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+.country1 p, .country2 p, .country3 p, .country4 p, .country5 p {
+    font-family: 'Segoe UI';
+    font-weight: 510;
+    font-size: 1.063rem;
+    margin-top: 1.25rem;
+    margin-left: 6.563rem;
+}
+
+.country6 p {
+    font-family: 'Segoe UI';
+    font-weight: 510;
+    font-size: 1.063rem;
+    margin-top: 1.25rem;
+    margin-left: 5.313rem;
+}
+
+.country1 {
+    position: absolute;
+    top: 9.5rem;
+    left: 10.125rem;
+}
+
+.country2 {
+    position: absolute;
+    top: 9.5rem;
+    left: 33.938rem;
+}
+
+.country3 {
+    position: absolute;
+    top: 9.5rem;
+    left: 57.438rem;
+}
+
+.country4 {
+    position: absolute;
+    top: 21.875rem;
+    left: 10.125rem;
+}
+
+.country5 {
+    position: absolute;
+    top: 21.875rem;
+    left: 33.938rem;
+}
+
+.country6 {
+    position: absolute;
+    top: 21.875rem;
+    left: 57.438rem;
+}
+
+.international {
+    background-color: rgba(0, 0, 0, 0.04);
+    height: 37.5rem;
+    position: relative;
+    top: 31.25rem;
+}
+
+.international h1 {
+    color: black;
+    font-family: arial;
+    font-size: 1.5rem;
+    font-weight: 1;
+    position: absolute;
+    top: 4.625rem;
+    left: 28.625rem;
+}
+
+.business img, .sports img, .influencers img, .podcasts img{
+    height: 11.438rem;
+}
+
+.business img {
+    position: absolute;
+    top: 9.063rem;
+    left: 10.188rem;
+}
+
+.sports img {
+    position: absolute;
+    top: 9.063rem;
+    left: 45.813rem;
+}
+
+.influencers img {
+    position: absolute;
+    top: 21.438rem;
+    left: 10.188rem;
+}
+
+.podcasts img {
+    position: absolute;
+    top: 21.438rem;
+    left: 45.813rem;
+}
+
+.business-link {
+    position: absolute;
+    top: 9.063rem;
+    left: 10.188rem;
+    height: 11.75rem;
+    width: 28.5rem;
+    /* border: 0.125rem solid black; */
+    background-color: rgb(175, 57, 54);
+    opacity: 0;
+}
+
+.business-link:hover, .sports-link:hover, .influencers-link:hover, .podcasts-link:hover {
+    opacity: 1;
+}
+
+.business-link img {
+    position: relative;
+    top: 1.25rem;
+    left: 1.25rem;
+    height: 5.313rem;
+    width: 10.188rem;
+    margin-bottom: 1.75rem;
+}
+
+.business-link p {
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 0.813rem;
+    letter-spacing: 0.063rem;
+    margin-left: 4rem;
+    margin-bottom: 2.25rem;
+    /* text-align: center; */
+}
+
+.business-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 0.875rem;
+    margin-left: 200px;
+    /* margin-top: 6.25rem; */
+}
+
+.business-link a:hover {
+    text-decoration: underline;
+}
+
+.sports-link {
+    position: absolute;
+    top: 9.063rem;
+    left: 45.813rem;
+    height: 11.75rem;
+    width: 28.5rem;
+    /* border: 0.125rem solid black; */
+    background-color: rgb(175, 57, 54);
+    opacity: 0;
+}
+
+.sports-link img {
+    position: relative;
+    top: 1.25rem;
+    left: 1.75rem;
+    height: 5.75rem;
+    width: 8.5rem;
+    margin-bottom: 1.75rem;
+}
+
+.sports-link p {
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 0.813rem;
+    letter-spacing: 0.063rem;
+    margin-left: 6.938rem;
+    margin-bottom: 1.813rem;
+}
+
+.sports-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 0.875rem;
+    margin-left: 11.5rem;
+    /* margin-top: 6.25rem; */
+}
+
+.sports-link a:hover {
+    text-decoration: underline;
+}
+
+.influencers-link {
+    position: absolute;
+    top: 21.438rem;
+    left: 10.188rem;
+    height: 11.75rem;
+    width: 28.5rem;
+    /* border: 0.125rem solid black; */
+    background-color: rgb(175, 57, 54);
+    opacity: 0;
+}
+
+.influencers-link img {
+    position: relative;
+    top: 1.25rem;
+    left: 1.75rem;
+    height: 4.5rem;
+    width: 14.625rem;
+    margin-bottom: 1.75rem;
+}
+
+.influencers-link p {
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 0.813rem;
+    letter-spacing: 0.063rem;
+    margin-left: 4.875rem;
+    margin-bottom: 3.063rem;
+}
+
+.influencers-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 0.875rem;
+    margin-left: 11.5rem;
+    /* margin-top: 6.25rem; */
+}
+
+.influencers-link a:hover {
+    text-decoration: underline;
+}
+
+.podcasts-link {
+    position: absolute;
+    top: 21.438rem;
+    left: 45.813rem;
+    height: 11.75rem;
+    width: 28.5rem;
+    /* border: 0.125rem solid black; */
+    background-color: rgb(175, 57, 54);
+    opacity: 0;
+}
+
+.podcasts-link img {
+    position: relative;
+    top: 1.25rem;
+    left: 1.75rem;
+    height: 4.5rem;
+    width: 14.625rem;
+    margin-bottom: 1.75rem;
+}
+
+.podcasts-link p{
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 0.813rem;
+    letter-spacing: 0.063rem;
+    margin-left: 5.5rem;
+    margin-bottom: 3.063rem;
+}
+
+.podcasts-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 0.875rem;
+    margin-left: 11.5rem;
+    /* margin-top: 6.25rem; */
+}
+
+.podcasts-link a:hover {
+    text-decoration: underline;
+}
+
+.marketing-cases {
+    /* background-color: greenyellow; */
+    position: relative;
+    top: 31.25rem;
+    height: 37.5rem;
+}
+
+.marketing-cases h1 {
+    color: black;
+    font-family: arial;
+    font-size: 1.5rem;
+    font-weight: 1;
+    position: absolute;
+    top: 2.188rem;
+    left: 34.875rem;
+}
+
+.mouka {
+    position: absolute;
+    top: 7.063rem;
+    left: 7.625rem;
+    /* border: 0.063rem solid maroon; */
+    
+}
+
+.mouka img, .safe-senegal img, .jumia img {
+    height: 25.813rem;
+    border-top-left-radius: 0.188rem;
+    border-top-right-radius: 0.188rem;
+}
+
+.safe-senegal {
+    position: absolute;
+    top: 7.063rem;
+    left: 31.188rem;
+    border-top-left-radius: 50%;
+}
+
+.jumia {
+    position: absolute;
+    top: 7.063rem;
+    right: 7.625rem;
+    /* border: 0.063rem solid maroon; */
+}
+
+.mouka:hover, .safe-senegal:hover, .jumia:hover {
+    border-bottom: 0.188rem solid maroon;
+}
+
+.more {
+    position: absolute;
+    top: 34.375rem;
+    left: 2.188rem;
+    font-family: 'Segoe UI';
+    text-align: center;
+    /* border: 0.063rem solid black; */
+    width: 95%;
+    font-size: 1.563rem;
+    font-weight: 23.125rem;
+}
+
+.more a {
+    text-decoration: none;
+    color: rgba(15, 37, 46, 0.6);
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.more a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.services {
+    position: relative;
+    top: 33.75rem;
+    background-color: rgba(0, 0, 0, 0.04);
+    height: 73.938rem;
+}
+
+.services h1 {
+    font-family: 'Segoe UI';
+    font-size: 1.563rem;
+    color: black;
+    position: absolute;
+    top: 2.625rem;
+    left: 19.375rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.services article {
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.938rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    font-weight: 100;
+    position: relative;
+    top: 7.688rem;
+}
+
+article .p1, article .p2, article .p3, article .p4{
+    margin-bottom: 1.625rem;
+}
+
+.pulse img, .pulseTv img, .pulseNetwork img, .pulseStudio img, .pulseMarketing img, .pulseProducts img {
+    height: 18.5rem;
+    width: 21.875rem;
+    /* border: 0.063rem solid black; */
+}
+
+.pulse img {
+    position: absolute;
+    top: 29.938rem;
+    left: 7.5rem;
+}
+
+.pulse-shadow img {
+    position: absolute;
+    top: 29.938rem;
+    left: 7.5rem;
+    height: 18.5rem;
+    opacity: 0;
+}
+
+.pulse-shadow img:hover {
+    opacity: 1;
+}
+
+.pulseTv img {
+    position: absolute;
+    top: 29.938rem;
+    left: 31.438rem;
+}
+
+.pulseTv-shadow img {
+    position: absolute;
+    top: 29.938rem;
+    left: 31.438rem;
+    opacity: 0;
+}
+
+.pulseTv-shadow img:hover {
+    opacity: 1;
+}
+
+.pulseNetwork img {
+    position: absolute;
+    top: 29.938rem;
+    left: 55.313rem;
+}
+
+.pulseNetwork-shadow img {
+    position: absolute;
+    top: 29.938rem;
+    left: 55.313rem;
+    opacity: 0;
+}
+
+.pulseNetwork-shadow img:hover {
+    opacity: 1;
+}
+
+.pulseStudio img {
+    position: absolute;
+    top: 50rem;
+    left: 7.5rem;
+}
+
+.pulseStudio-shadow img {
+    position: absolute;
+    top: 50rem;
+    left: 7.5rem;
+    opacity: 0;
+}
+
+.pulseStudio-shadow img:hover {
+    opacity: 1;
+}
+
+.pulseMarketing img{
+    position: absolute;
+    top: 50rem;
+    left: 31.438rem;
+}
+
+.pulseMarketing-shadow img{
+    position: absolute;
+    top: 50rem;
+    left: 31.438rem;
+    opacity: 0;
+}
+
+.pulseMarketing-shadow img:hover {
+    opacity: 1;
+}
+
+.pulseProducts img {
+    position: absolute;
+    top: 50rem;
+    left: 55.313rem;
+}
+
+.pulseProducts-shadow img {
+    position: absolute;
+    top: 50rem;
+    left: 55.313rem;
+    opacity: 0;
+}
+
+.pulseProducts-shadow img:hover {
+    opacity: 1;
+}
+
+.brands {
+    position: relative;
+    top: 33.75rem;
+    /* background-color: pink; */
+    height: 76.563rem;
+}
+
+.brands h1 {
+    font-family: 'Segoe UI';
+    font-size: 3.25rem;
+    color: black;
+    position: absolute;
+    top: 2.625rem;
+    left: 22.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.brands p {
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.8rem;
+    color: black;
+    position: absolute;
+    top: 7.875rem;
+    left: 19.375rem;
+    text-align: center;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.maybelline {
+    position: absolute;
+    top: 14.688rem;
+    left: 12.188rem;
+}
+
+.veet {
+    position: absolute;
+    top: 14.688rem;
+    left: 28rem;
+}
+
+.safeguard {
+    position: absolute;
+    top: 14.688rem;
+    left: 43.75rem;
+}
+
+.mastercard {
+    position: absolute;
+    top: 14.688rem;
+    left: 59.688rem;
+}
+
+.basf {
+    position: absolute;
+    top: 28.625rem;
+    left: 12.25rem;
+}
+
+.darkLovely {
+    position: absolute;
+    top: 28.625rem;
+    left: 28rem;
+}
+
+.honeywell {
+    position: absolute;
+    top: 28.625rem;
+    left: 43.75rem;
+}
+
+.durex {
+    position: absolute;
+    top: 28.625rem;
+    left: 60.188rem;
+}
+
+.oralB {
+    position: absolute;
+    top: 42.688rem;
+    left: 12.313rem;
+}
+
+.worldRemit {
+    position: absolute;
+    top: 42.5rem;
+    left: 28rem;
+}
+
+.star {
+    position: absolute;
+    top: 42.5rem;
+    left: 43.75rem;
+}
+
+.legend {
+    position: absolute;
+    top: 42.563rem;
+    left: 60.938rem;
+}
+
+.jameson {
+    position: absolute;
+    top: 56.938rem;
+    left: 12.188rem;
+}
+
+.nike {
+    position: absolute;
+    top: 56.938rem;
+    left: 28rem;
+}
+
+.alibaba {
+    position: absolute;
+    top: 56.5rem;
+    left: 43.75rem;
+}
+
+.total {
+    position: absolute;
+    top: 56.5rem;
+    left: 59.688rem;
+}
+
+/* .brands img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.brands img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+} */
+
+.moreClients {
+    position: absolute;
+    top: 73.75rem;
+    left: 2.188rem;
+    font-family: 'Segoe UI';
+    text-align: center;
+    /* border: 0.063rem solid black; */
+    width: 95%;
+    font-size: 1.563rem;
+    font-weight: 370;
+}
+
+.moreClients a {
+    text-decoration: none;
+    color: rgba(15, 37, 46, 0.6);
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.moreClients a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.clientReview {
+    position: relative;
+    top: 37.5rem;
+    width: 100%;
+    height: 23.063;
+    background: url('images/clientsfeedbackbg.png')no-repeat center center/cover;
+    /* border: 0.063rem solid black; */
+}
+
+.clientReviewTxt {
+    background-color: rgba(175, 57, 54, .9);
+    height: 23.063rem;
+}
+
+.clientReviewTxt h1 {
+    position: absolute;
+    top: 5.625rem;
+    left: 31.563rem;
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.clientReviewTxt p {
+    text-align: center;
+    position: absolute;
+    top: 8.75rem;
+    left: 15rem;
+    color: white;
+    font-weight: 100;
+}
+
+.clientReviewTxt h3 {
+    text-align: center;
+    position: absolute;
+    top: 12.5rem;
+    left: 37.188rem;
+    color: white;
+    font-weight: 100;
+}
+
+.clientReviewTxt h5 {
+    text-align: center;
+    position: absolute;
+    top: 14.375rem;
+    left: 35.938rem;
+    color: white;
+    font-weight: 100;
+}
+
+.newsletter {
+    position: relative;
+    top: 37.5rem;
+    height: 30.75rem;
+    background-color: rgba(0, 0, 0, 0.04);
+    /* border: 0.063rem solid blue; */
+}
+
+.newsletter h1 {
+    color: black;
+    position: absolute;
+    top: 4rem;
+    left: 30.438rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    font-weight: 10;
+}
+
+.newsletter p {
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    /* font-weight: 200; */
+    position: absolute;
+    top: 9.125rem;
+    left: 18.75rem;
+    text-align: center;
+    line-height: 1.8rem;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+}
+
+.dataPrivacyLink a {
+    text-decoration: none;
+    color: rgba(15, 37, 46, 0.6);
+}
+
+.dataPrivacyLink a:hover {
+    text-decoration: underline;
+}
+
+form {
+    /* text-align: center; */
+    position: absolute;
+    top: 18.75rem;
+    /* left: 0rem; */
+}
+
+#email {
+    border: none;
+    border-bottom: 0.125rem solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    background-color: transparent;
+    /* padding: 0.625rem 9.938rem; */
+    height: 3.125rem;
+    width: 29.063rem;
+    position: absolute;
+    left: 27.625rem;
+    /* text-align: start; */
+}
+
+input::placeholder {
+    /* text-align: start; */
+    /* margin-left: 1.875rem; */
+    font-size: 0.938rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.btn1 {
+    position: absolute;
+    top: 5rem;
+    left: 34.25rem;
+    padding: 0.938rem 3.563rem;
+    background-color: rgb(175, 57, 54);
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.influencerNetwork {
+    position: relative;
+    top: 37.5rem;
+    /* border: 0.063rem solid brown; */
+    height: 14.688rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.influencerNetwork h1 {
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: black;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    position: absolute;
+    top: 3.25rem;
+    left: 18.938rem;
+}
+
+.influencerNetwork button {
+    position: absolute;
+    top: 8.375rem;
+    left: 32.063rem;
+    padding: 0.625rem 3.688rem;
+    background-color: rgb(175, 57, 54);
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.influencerNetwork button a {
+    color: white;
+    text-decoration: none;
+}
+
+.musicVid {
+    position: relative;
+    top: 37.5rem;
+    /* border: 0.063rem solid purple; */
+    height: 54.188rem;
+}
+
+.musicVid h1 {
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: black;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    position: absolute;
+    top: 5.125rem;
+    left: 34.375rem;
+}
+
+.musicVid iframe {
+    position: absolute;
+    top: 10.375rem;
+    left: 7.5rem;
+}
+
+.musicVid h4 {
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: black;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    position: absolute;
+    top: 42.75rem;
+    left: 29.75rem;
+}
+
+.musicVid button {
+    position: absolute;
+    top: 47.125rem;
+    left: 33.313rem;
+    padding: 0.625rem 3.688rem;
+    background-color: rgb(175, 57, 54);
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.musicVid button a {
+    /* color: white; */
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    top: 37.5rem;
+    border: 0.063rem solid black;
+    height: 23.25rem;
+    background: url('images/Pulse-central-_artwork.png')no-repeat center center/cover;
+}
+
+.overlay2 {
+    position: absolute;
+    /* border: 0.188rem solid white; */
+    width: 100%;
+    height: 23.25rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-logo {
+    position: absolute;
+    left: 7.563rem;
+    top: 3.125rem;
+}
+
+.category1 {
+    position: absolute;
+    color: white;
+    top: 3.125rem;
+    right: 34.688rem;
+    font-family: 'Segoe UI';
+}
+
+.category1 h4 {
+    font-size: 0.94rem;
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.063rem;
+}
+
+.category1 ul {
+    list-style: none;
+    line-height: 1.8rem;
+    font-size: 1.125rem;
+}
+
+.category ul li {
+    font-size: 1rem;
+    letter-spacing: 0.063rem;
+    word-spacing: 0.063rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+.category1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.category1 a:hover {
+    text-decoration: underline;
+    color: rgba(117, 116, 116, 1);
+}
+
+.category2 {
+    position: absolute;
+    color: white;
+    top: 3.125rem;
+    right: 15.625rem;
+    font-family: 'Segoe UI';
+}
+
+.category2 h4 {
+    margin-bottom: 0.625rem;
+}
+
+.category2 img {
+    height: 2.188rem;
+    /* width: 3.75rem; */
+}
+
+.category3 {
+    color: white;
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 18.625rem;
+    left: 7.5rem;
+}
+
+.category4 {
+    position: absolute;
+    top: 18.625rem;
+    left: 41.563rem;
+}
+
+.category4 li {
+    float: left;
+}
+
+.category4 li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    padding: 0rem 1.563rem;
+}
